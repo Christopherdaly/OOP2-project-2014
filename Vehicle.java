@@ -55,7 +55,7 @@ public class Vehicle implements Serializable {
 	/**String which returns all of the values of all of Vehicle's attributes
 	 */
 	public String toString() {
-				return getMake() + " - " + getModel() + "\n" +getLitreEngine() + " Litre " +  "€" + getPrice();
+				return getMake() + " " + getModel() + "\n" +getLitreEngine() + " Litre " +  "€" + getPrice() + " per Day";
 	}//End String
 
 }
